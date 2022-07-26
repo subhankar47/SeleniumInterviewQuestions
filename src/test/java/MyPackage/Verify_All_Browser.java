@@ -25,7 +25,7 @@ public class Verify_All_Browser {
 		driver.quit();
 	}
 
-	public static void Ie() {
+	public static void Edge() {
 		System.setProperty("webdriver.edge.driver", "D:\\Library\\msedgedriver.exe");
 		driver = new EdgeDriver();
 		driver.get("http://www.seleniumbymahesh.com/");
@@ -36,6 +36,6 @@ public class Verify_All_Browser {
 	public static void main(String[] args) {
 		Chrome();
 		Firefox();
-		Ie();
+		Edge();
 	}
 }
