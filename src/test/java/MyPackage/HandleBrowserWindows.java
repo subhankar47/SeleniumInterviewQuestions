@@ -23,7 +23,7 @@ public class HandleBrowserWindows {
 		// getWindowHandles()
 		driver.findElement(By.xpath("//a[text()='OrangeHRM, Inc']")).click();//opens the another window-child window
 		Set<String> windowIDs= driver.getWindowHandles();//return Is's of multiple browser windows
-		//First method - iterator()
+		//First method -> iterator()
 		/*Iterator<String> it = windowIDs.iterator();
 		String parentwindowID = it.next();
 		String childwindowID = it.next();
