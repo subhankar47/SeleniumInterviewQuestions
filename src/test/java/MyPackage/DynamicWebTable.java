@@ -77,7 +77,8 @@ public class DynamicWebTable {
 				String pageno = Integer.toString(p + 1);
 				driver.findElement(By.xpath("//ul[@class='pagination']//li//a[text()='" + pageno + "']")).click();
 
-			} catch (Exception e) {
+			} catch (Exception e) {	
+				
 
 			}
 
